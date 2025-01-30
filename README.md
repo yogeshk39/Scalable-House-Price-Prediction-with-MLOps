@@ -8,7 +8,7 @@
 
 This repository contains the code and resources for an end-to-end machine learning project that focuses on predicting house prices. It goes beyond building a simple model and demonstrates a robust, production-ready approach using MLOps principles. The project emphasizes high-quality code, thorough data understanding, rigorous testing, and seamless integration with MLOps tools like ZenML and MLflow.
 
-The primary goal is not just to create a house price prediction model but to implement it in a way that reflects industry best practices, making it stand out and placing you in the "top 1%" of data scientists.
+The primary goal is not just to create a house price prediction model but to implement it in a way that reflects industry best practices, making this project stand out.
 
 ## Project Overview
 
@@ -81,42 +81,6 @@ This project guides you through the complete lifecycle of a machine learning pro
     zenml init
     ```
 
-## Project Structure
-house-price-prediction/
-├── data/
-│   └── archive.zip (or other data sources)
-├── notebooks/
-│   └── exploratory_data_analysis.ipynb
-├── src/
-│   ├── pipelines/
-│   │   ├── training_pipeline.py
-│   │   └── deployment_pipeline.py
-│   │   └── inference_pipeline.py
-│   │   └── run_deployment.py
-│   │   └── utils.py
-│   ├── steps/
-│   │   ├── data_ingestion.py
-│   │   ├── data_cleaning.py
-│   │   ├── data_preprocessing.py
-│   │   ├── model_training.py
-│   │   ├── model_evaluation.py
-│   │   ├── dynamic_importer.py
-│   │   ├── predictor.py
-│   │   └── init.py
-│   ├── models/
-│   │   ├── init.py
-│   │   ├── model.py
-│   ├── analysis/
-│   │   ├── init.py
-│   │   ├── eda.py
-│   │   └── missing_value_analysis.py
-│   └── utils/
-│       └── init.py
-├── .zen/ (ZenML configuration - created automatically)
-├── requirements.txt
-├── run_pipeline.py
-├── README.md
-└── LICENSE
 
 
 *   **data/:** Contains the raw and processed datasets.
