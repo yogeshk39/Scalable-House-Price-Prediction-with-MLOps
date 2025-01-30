@@ -1,6 +1,5 @@
 # End-to-End Machine Learning Project: House Price Prediction with MLOps
 
-[![CI/CD](https://github.com/<your_username>/<your_repo_name>/actions/workflows/ci_cd.yml/badge.svg)](https://github.com/<your_username>/<your_repo_name>/actions/workflows/ci_cd.yml)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
